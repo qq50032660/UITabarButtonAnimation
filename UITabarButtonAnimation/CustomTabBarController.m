@@ -8,7 +8,7 @@
 
 #import "CustomTabBarController.h"
 #import "ViewController.h"
-@interface CustomTabBarController ()
+@interface CustomTabBarController ()<UITabBarControllerDelegate>
 {
     NSInteger _currentIndex;
 }
