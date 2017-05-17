@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DF40FED81ECC002100565CF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FED71ECC002100565CF3 /* main.m */; };
+		DF40FEDB1ECC002100565CF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEDA1ECC002100565CF3 /* AppDelegate.m */; };
+		DF40FEDE1ECC002100565CF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEDD1ECC002100565CF3 /* ViewController.m */; };
+		DF40FEE11ECC002200565CF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF40FEDF1ECC002100565CF3 /* Main.storyboard */; };
+		DF40FEE31ECC002200565CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF40FEE21ECC002200565CF3 /* Assets.xcassets */; };
+		DF40FEE61ECC002200565CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF40FEE41ECC002200565CF3 /* LaunchScreen.storyboard */; };
+		DF40FEF11ECC002200565CF3 /* UITabarButtonAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEF01ECC002200565CF3 /* UITabarButtonAnimationTests.m */; };
+		DF40FEFC1ECC002200565CF3 /* UITabarButtonAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FEFB1ECC002200565CF3 /* UITabarButtonAnimationUITests.m */; };
+		DF40FF0B1ECC004700565CF3 /* CustomTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF40FF0A1ECC004700565CF3 /* CustomTabBarController.m */; };
+		DF40FF151ECC1EAE00565CF3 /* home-Click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF0D1ECC1EAE00565CF3 /* home-Click@2x.png */; };
+		DF40FF161ECC1EAE00565CF3 /* home@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF0E1ECC1EAE00565CF3 /* home@2x.png */; };
+		DF40FF171ECC1EAE00565CF3 /* tab-my-Click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF0F1ECC1EAE00565CF3 /* tab-my-Click@2x.png */; };
+		DF40FF181ECC1EAE00565CF3 /* tab-my@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF101ECC1EAE00565CF3 /* tab-my@2x.png */; };
+		DF40FF191ECC1EAE00565CF3 /* tab-new-Click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF111ECC1EAE00565CF3 /* tab-new-Click@2x.png */; };
+		DF40FF1A1ECC1EAE00565CF3 /* tab-new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF121ECC1EAE00565CF3 /* tab-new@2x.png */; };
+		DF40FF1B1ECC1EAE00565CF3 /* tab-Project-Click@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF131ECC1EAE00565CF3 /* tab-Project-Click@2x.png */; };
+		DF40FF1C1ECC1EAE00565CF3 /* tab-project@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DF40FF141ECC1EAE00565CF3 /* tab-project@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF40FEED1ECC002200565CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF40FECB1ECC002100565CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF40FED21ECC002100565CF3;
+			remoteInfo = UITabarButtonAnimation;
+		};
+		DF40FEF81ECC002200565CF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF40FECB1ECC002100565CF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF40FED21ECC002100565CF3;
+			remoteInfo = UITabarButtonAnimation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DF40FED31ECC002100565CF3 /* UITabarButtonAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UITabarButtonAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF40FED71ECC002100565CF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF40FED91ECC002100565CF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DF40FEDA1ECC002100565CF3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DF40FEDC1ECC002100565CF3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF40FEDD1ECC002100565CF3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF40FEE01ECC002100565CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF40FEE21ECC002200565CF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF40FEE51ECC002200565CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF40FEE71ECC002200565CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40FEEC1ECC002200565CF3 /* UITabarButtonAnimationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabarButtonAnimationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF40FEF01ECC002200565CF3 /* UITabarButtonAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabarButtonAnimationTests.m; sourceTree = "<group>"; };
+		DF40FEF21ECC002200565CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40FEF71ECC002200565CF3 /* UITabarButtonAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UITabarButtonAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF40FEFB1ECC002200565CF3 /* UITabarButtonAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabarButtonAnimationUITests.m; sourceTree = "<group>"; };
+		DF40FEFD1ECC002200565CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF40FF091ECC004700565CF3 /* CustomTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTabBarController.h; sourceTree = "<group>"; };
+		DF40FF0A1ECC004700565CF3 /* CustomTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTabBarController.m; sourceTree = "<group>"; };
+		DF40FF0D1ECC1EAE00565CF3 /* home-Click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home-Click@2x.png"; sourceTree = "<group>"; };
+		DF40FF0E1ECC1EAE00565CF3 /* home@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home@2x.png"; sourceTree = "<group>"; };
+		DF40FF0F1ECC1EAE00565CF3 /* tab-my-Click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-my-Click@2x.png"; sourceTree = "<group>"; };
+		DF40FF101ECC1EAE00565CF3 /* tab-my@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-my@2x.png"; sourceTree = "<group>"; };
+		DF40FF111ECC1EAE00565CF3 /* tab-new-Click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-new-Click@2x.png"; sourceTree = "<group>"; };
+		DF40FF121ECC1EAE00565CF3 /* tab-new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-new@2x.png"; sourceTree = "<group>"; };
+		DF40FF131ECC1EAE00565CF3 /* tab-Project-Click@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-Project-Click@2x.png"; sourceTree = "<group>"; };
+		DF40FF141ECC1EAE00565CF3 /* tab-project@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-project@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF40FED01ECC002100565CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEE91ECC002200565CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEF41ECC002200565CF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DF40FECA1ECC002100565CF3 = {
+			isa = PBXGroup;
+			children = (
+				DF40FED51ECC002100565CF3 /* UITabarButtonAnimation */,
+				DF40FEEF1ECC002200565CF3 /* UITabarButtonAnimationTests */,
+				DF40FEFA1ECC002200565CF3 /* UITabarButtonAnimationUITests */,
+				DF40FED41ECC002100565CF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DF40FED41ECC002100565CF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FED31ECC002100565CF3 /* UITabarButtonAnimation.app */,
+				DF40FEEC1ECC002200565CF3 /* UITabarButtonAnimationTests.xctest */,
+				DF40FEF71ECC002200565CF3 /* UITabarButtonAnimationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF40FED51ECC002100565CF3 /* UITabarButtonAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FED91ECC002100565CF3 /* AppDelegate.h */,
+				DF40FEDA1ECC002100565CF3 /* AppDelegate.m */,
+				DF40FEDC1ECC002100565CF3 /* ViewController.h */,
+				DF40FEDD1ECC002100565CF3 /* ViewController.m */,
+				DF40FF0C1ECC1EA300565CF3 /* Resource */,
+				DF40FF091ECC004700565CF3 /* CustomTabBarController.h */,
+				DF40FF0A1ECC004700565CF3 /* CustomTabBarController.m */,
+				DF40FEDF1ECC002100565CF3 /* Main.storyboard */,
+				DF40FEE21ECC002200565CF3 /* Assets.xcassets */,
+				DF40FEE41ECC002200565CF3 /* LaunchScreen.storyboard */,
+				DF40FEE71ECC002200565CF3 /* Info.plist */,
+				DF40FED61ECC002100565CF3 /* Supporting Files */,
+			);
+			path = UITabarButtonAnimation;
+			sourceTree = "<group>";
+		};
+		DF40FED61ECC002100565CF3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FED71ECC002100565CF3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DF40FEEF1ECC002200565CF3 /* UITabarButtonAnimationTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FEF01ECC002200565CF3 /* UITabarButtonAnimationTests.m */,
+				DF40FEF21ECC002200565CF3 /* Info.plist */,
+			);
+			path = UITabarButtonAnimationTests;
+			sourceTree = "<group>";
+		};
+		DF40FEFA1ECC002200565CF3 /* UITabarButtonAnimationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FEFB1ECC002200565CF3 /* UITabarButtonAnimationUITests.m */,
+				DF40FEFD1ECC002200565CF3 /* Info.plist */,
+			);
+			path = UITabarButtonAnimationUITests;
+			sourceTree = "<group>";
+		};
+		DF40FF0C1ECC1EA300565CF3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DF40FF0D1ECC1EAE00565CF3 /* home-Click@2x.png */,
+				DF40FF0E1ECC1EAE00565CF3 /* home@2x.png */,
+				DF40FF0F1ECC1EAE00565CF3 /* tab-my-Click@2x.png */,
+				DF40FF101ECC1EAE00565CF3 /* tab-my@2x.png */,
+				DF40FF111ECC1EAE00565CF3 /* tab-new-Click@2x.png */,
+				DF40FF121ECC1EAE00565CF3 /* tab-new@2x.png */,
+				DF40FF131ECC1EAE00565CF3 /* tab-Project-Click@2x.png */,
+				DF40FF141ECC1EAE00565CF3 /* tab-project@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF40FED21ECC002100565CF3 /* UITabarButtonAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40FF001ECC002200565CF3 /* Build configuration list for PBXNativeTarget "UITabarButtonAnimation" */;
+			buildPhases = (
+				DF40FECF1ECC002100565CF3 /* Sources */,
+				DF40FED01ECC002100565CF3 /* Frameworks */,
+				DF40FED11ECC002100565CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UITabarButtonAnimation;
+			productName = UITabarButtonAnimation;
+			productReference = DF40FED31ECC002100565CF3 /* UITabarButtonAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF40FEEB1ECC002200565CF3 /* UITabarButtonAnimationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40FF031ECC002200565CF3 /* Build configuration list for PBXNativeTarget "UITabarButtonAnimationTests" */;
+			buildPhases = (
+				DF40FEE81ECC002200565CF3 /* Sources */,
+				DF40FEE91ECC002200565CF3 /* Frameworks */,
+				DF40FEEA1ECC002200565CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF40FEEE1ECC002200565CF3 /* PBXTargetDependency */,
+			);
+			name = UITabarButtonAnimationTests;
+			productName = UITabarButtonAnimationTests;
+			productReference = DF40FEEC1ECC002200565CF3 /* UITabarButtonAnimationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF40FEF61ECC002200565CF3 /* UITabarButtonAnimationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF40FF061ECC002200565CF3 /* Build configuration list for PBXNativeTarget "UITabarButtonAnimationUITests" */;
+			buildPhases = (
+				DF40FEF31ECC002200565CF3 /* Sources */,
+				DF40FEF41ECC002200565CF3 /* Frameworks */,
+				DF40FEF51ECC002200565CF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF40FEF91ECC002200565CF3 /* PBXTargetDependency */,
+			);
+			name = UITabarButtonAnimationUITests;
+			productName = UITabarButtonAnimationUITests;
+			productReference = DF40FEF71ECC002200565CF3 /* UITabarButtonAnimationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF40FECB1ECC002100565CF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = fc_curry;
+				TargetAttributes = {
+					DF40FED21ECC002100565CF3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					DF40FEEB1ECC002200565CF3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF40FED21ECC002100565CF3;
+					};
+					DF40FEF61ECC002200565CF3 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DF40FED21ECC002100565CF3;
+					};
+				};
+			};
+			buildConfigurationList = DF40FECE1ECC002100565CF3 /* Build configuration list for PBXProject "UITabarButtonAnimation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF40FECA1ECC002100565CF3;
+			productRefGroup = DF40FED41ECC002100565CF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF40FED21ECC002100565CF3 /* UITabarButtonAnimation */,
+				DF40FEEB1ECC002200565CF3 /* UITabarButtonAnimationTests */,
+				DF40FEF61ECC002200565CF3 /* UITabarButtonAnimationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF40FED11ECC002100565CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FF161ECC1EAE00565CF3 /* home@2x.png in Resources */,
+				DF40FF171ECC1EAE00565CF3 /* tab-my-Click@2x.png in Resources */,
+				DF40FF1C1ECC1EAE00565CF3 /* tab-project@2x.png in Resources */,
+				DF40FF1A1ECC1EAE00565CF3 /* tab-new@2x.png in Resources */,
+				DF40FF191ECC1EAE00565CF3 /* tab-new-Click@2x.png in Resources */,
+				DF40FEE61ECC002200565CF3 /* LaunchScreen.storyboard in Resources */,
+				DF40FF1B1ECC1EAE00565CF3 /* tab-Project-Click@2x.png in Resources */,
+				DF40FF181ECC1EAE00565CF3 /* tab-my@2x.png in Resources */,
+				DF40FEE31ECC002200565CF3 /* Assets.xcassets in Resources */,
+				DF40FF151ECC1EAE00565CF3 /* home-Click@2x.png in Resources */,
+				DF40FEE11ECC002200565CF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEEA1ECC002200565CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEF51ECC002200565CF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF40FECF1ECC002100565CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEDE1ECC002100565CF3 /* ViewController.m in Sources */,
+				DF40FEDB1ECC002100565CF3 /* AppDelegate.m in Sources */,
+				DF40FF0B1ECC004700565CF3 /* CustomTabBarController.m in Sources */,
+				DF40FED81ECC002100565CF3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEE81ECC002200565CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEF11ECC002200565CF3 /* UITabarButtonAnimationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF40FEF31ECC002200565CF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF40FEFC1ECC002200565CF3 /* UITabarButtonAnimationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF40FEEE1ECC002200565CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF40FED21ECC002100565CF3 /* UITabarButtonAnimation */;
+			targetProxy = DF40FEED1ECC002200565CF3 /* PBXContainerItemProxy */;
+		};
+		DF40FEF91ECC002200565CF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF40FED21ECC002100565CF3 /* UITabarButtonAnimation */;
+			targetProxy = DF40FEF81ECC002200565CF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF40FEDF1ECC002100565CF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF40FEE01ECC002100565CF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF40FEE41ECC002200565CF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF40FEE51ECC002200565CF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF40FEFE1ECC002200565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF40FEFF1ECC002200565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF40FF011ECC002200565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UITabarButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.UITabarButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DF40FF021ECC002200565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UITabarButtonAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.UITabarButtonAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DF40FF041ECC002200565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITabarButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.UITabarButtonAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITabarButtonAnimation.app/UITabarButtonAnimation";
+			};
+			name = Debug;
+		};
+		DF40FF051ECC002200565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = UITabarButtonAnimationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.UITabarButtonAnimationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UITabarButtonAnimation.app/UITabarButtonAnimation";
+			};
+			name = Release;
+		};
+		DF40FF071ECC002200565CF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITabarButtonAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.UITabarButtonAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITabarButtonAnimation;
+			};
+			name = Debug;
+		};
+		DF40FF081ECC002200565CF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = UITabarButtonAnimationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.baibai.UITabarButtonAnimationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = UITabarButtonAnimation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF40FECE1ECC002100565CF3 /* Build configuration list for PBXProject "UITabarButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FEFE1ECC002200565CF3 /* Debug */,
+				DF40FEFF1ECC002200565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF40FF001ECC002200565CF3 /* Build configuration list for PBXNativeTarget "UITabarButtonAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FF011ECC002200565CF3 /* Debug */,
+				DF40FF021ECC002200565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF40FF031ECC002200565CF3 /* Build configuration list for PBXNativeTarget "UITabarButtonAnimationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FF041ECC002200565CF3 /* Debug */,
+				DF40FF051ECC002200565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DF40FF061ECC002200565CF3 /* Build configuration list for PBXNativeTarget "UITabarButtonAnimationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF40FF071ECC002200565CF3 /* Debug */,
+				DF40FF081ECC002200565CF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DF40FECB1ECC002100565CF3 /* Project object */;
+}
